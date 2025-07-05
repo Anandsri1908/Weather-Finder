@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: teal;
+    display: grid;
+    place-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.weather-app{
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    min-width: 350px;
+    text-align: center;
+}
+
+.weather-app h1{
+    font-size: 24px;
+    color: teal;
+    margin-bottom: 15px;
+}
+
+.input-group{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+#inputBox{
+    padding: 10px;
+    border: 1px solid teal;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+}
+
+button{
+    padding: 10px 20px;
+    background: teal;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.cloud img{
+    width: 120px;
+    margin-bottom: 20px;
+}
+.cloud{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.weather-result{
+    margin: 20px 0;
+    font: 18px;
+    color: teal;
+}
+.weather-result p{
+    margin: 5px 0;
+   
+}
+p img{
+    width:50px;
+}
+.humidity-wind{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    text-align: center;
+}
